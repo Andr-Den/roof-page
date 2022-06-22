@@ -1,4 +1,4 @@
-.popup__overlay {
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -8,7 +8,7 @@
   visibility: hidden;
   opacity: 0;
 }
-.popup__overlay:target {
+.overlay:target {
   visibility: visible;
   opacity: 1;
 }
