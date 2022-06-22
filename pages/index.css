@@ -18,3 +18,13 @@
 @import url(../block/header/__call-me/header__call-me.css);
 @import url(../block/header/__media/header__media.css);
 @import url(../block/header/__text-underline/header__text-underline.css);
+
+@import url(../block/overlay/overlay.css);
+@import url(../block/popup/popup.css);
+@import url(../block/popup/__header/popup__header.css);
+@import url(../block/popup/__close/popup__close.css);
+@import url(../block/popup/__text/popup__text.css);
+@import url(../block/popup/__schedule/popup__schedule.css);
+@import url(../block/popup/__set/popup__set.css);
+@import url(../block/popup/__input/popup__input.css);
+@import url(../block/popup/__submit-button/popup__submit-button.css);
