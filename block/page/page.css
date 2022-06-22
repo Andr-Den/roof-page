@@ -1,0 +1,8 @@
+.page {
+  background: url(../../images/BG.png);
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  font-family: 'Montserrat', sans-serif;
+}

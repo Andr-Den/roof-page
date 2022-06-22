@@ -1,0 +1,13 @@
+.header__nav {
+  padding-bottom: 2vw;
+  border-bottom: 1px solid rgba(28, 28, 28, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 0.835vw;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #1C1C1C;
+}
