@@ -1,0 +1,8 @@
+.popup__close {
+  position: absolute;
+  top: 2.37vw;
+  right: 2.47vw;
+  color: #ffffff;
+  width: 1vw;
+  height: 1vw;
+}

@@ -26,7 +26,7 @@
         </div>
         <div class="header__catalog">
           <div src="./images/pdf.png" class="header__icon header__icon_pdf">Pdf</div>
-          <a class="header__text-underline">Скачать прайс-каталог</a>
+          <a class="header__text-underline" href="#">Скачать прайс-каталог</a>
         </div>
         <div class="header__logo"></div>
         <div class="header__media">
@@ -40,13 +40,28 @@
         <div class="header__call">
           <p class="header__text"><span class="header__text_bold">Пн-Пт</span> 9:00 - 18:00, <span class="header__text_bold">Сб</span> 10:00 - 18:00</p>
           <p class="header__phone">8 (800) 222-54-60</p>
-          <a class="header__call-me header__text-underline">Позвоните мне</a>
+          <a class="header__call-me header__text-underline" href="#popup">Позвоните мне</a>
         </div>
       </div>
     </header>
     <main class="content">
 
     </main>
+    <div id="popup" class="popup__overlay">
+      <div class="popup">
+        <a class="popup__close" href="#"><img src="./images/close.svg"></a>
+        <h2 class="popup__header">Быстро оставить заявку</h2>
+        <p class="popup__text">Введите номер, мы позвоним вам в течение 10 минут в рабочее время</p>
+        <p class="popup__schedule">Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00</p>
+        <form class="popup__form">
+          <fieldset class="popup__set">
+            <input type="tel" placeholder="+7(---) --- -- -- " class="popup__input">
+            <input type="submit" class="popup__submit-button" value="Отправить" name="submit_button">
+            <p class="popup__text">Нажимая кнопку вы соглашаетесь с условиями <a>Политики конфиденциальности</a></p>
+          </fieldset> 
+        </form>
+      </div>
+    </div>
   </div>
 </body>
 </html>
