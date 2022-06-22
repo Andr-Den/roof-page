@@ -1,0 +1,7 @@
+.header__description {
+  width: 10.7vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}

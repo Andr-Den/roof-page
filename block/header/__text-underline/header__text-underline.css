@@ -1,0 +1,4 @@
+.header__text-underline {
+  text-decoration: underline dotted #12C868;
+  text-underline-offset: 0.2vw;
+}

@@ -5,3 +5,16 @@
 @import url(../block/header/header.css);
 @import url(../block/header/__nav/header__nav.css);
 @import url(../block/header/__links/header__links.css);
+@import url(../block/header/__header/header__header.css);
+@import url(../block/header/__description/header__description.css);
+@import url(../block/header/__text/header__text.css);
+@import url(../block/header/__text/_bold/header__text_bold.css);
+@import url(../block/header/__catalog/header__catalog.css);
+@import url(../block/header/__logo/header__logo.css);
+@import url(../block/header/__icon/header__icon.css);
+@import url(../block/header/__icon/_pdf/header__icon_pdf.css);
+@import url(../block/header/__call/header__call.css);
+@import url(../block/header/__phone/header__phone.css);
+@import url(../block/header/__call-me/header__call-me.css);
+@import url(../block/header/__media/header__media.css);
+@import url(../block/header/__text-underline/header__text-underline.css);
