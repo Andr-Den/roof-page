@@ -1,17 +1,15 @@
 .popup__submit-button {
-  width: 26.3vw;
+  width: 18.5vw;
   margin-top: 1.25vw;
-  padding-left: 46px;
-  padding-right: 46px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 1.25vw;
+  padding-bottom: 1.25vw;
   border: none;
   color: #ffffff;
-  background-color: #333333;
-  font-size: 14px;
-  line-height: 20px;
+  background-color: #F38120;
+  font-size: 0.83vw;
+  line-height: 1vw;
   letter-spacing: 0.04em;
-  border-radius: 500px;
+  border-radius: 26vw;
 }
 
 .popup__submit-button:hover {
