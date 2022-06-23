@@ -13,4 +13,8 @@
     width: 33px;
     height: 33px;
   }
+
+  .bulletins__button:hover {
+    cursor: pointer;
+  }
 }
