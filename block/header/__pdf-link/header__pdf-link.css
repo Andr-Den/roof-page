@@ -1,4 +1,5 @@
-.header__text-underline {
+.header__pdf-link {
+  color: #1c1c1c;
   text-decoration: underline dotted #12C868;
   text-underline-offset: 0.2vw;
 }

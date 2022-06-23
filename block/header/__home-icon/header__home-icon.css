@@ -1,3 +1,14 @@
 .header__home-icon {
   width: 1.2vw;
 }
+
+.header__home-icon:hover {
+  cursor: pointer;
+  animation: shadow  1s infinite linear;
+}
+
+@keyframes shadow {
+  from {box-shadow: 0 0 3px rgba(243, 129, 32, 1);}
+  50% {box-shadow: 0 0 30px rgba(243, 129, 32, 1);}
+  to {box-shadow: 0 0 3px rgba(243, 129, 32, 1);}
+  }

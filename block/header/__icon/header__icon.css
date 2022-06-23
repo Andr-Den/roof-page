@@ -2,3 +2,9 @@
   width: 2.3vw;
   height: 2.3vw;
 }
+
+.header__icon:hover {
+  cursor: pointer;
+  width: 2.5vw;
+  height: 2.5vw;
+}
