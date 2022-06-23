@@ -40,7 +40,7 @@
         <div class="header__call">
           <p class="header__text"><span class="header__text_bold">Пн-Пт</span> 9:00 - 18:00, <span class="header__text_bold">Сб</span> 10:00 - 18:00</p>
           <p class="header__phone">8 (800) 222-54-60</p>
-          <a class="header__call-me" href="#popup">Позвоните мне</a>
+          <button class="header__call-me">Позвоните мне</button>
         </div>
         <img src="./images/burger.svg" class="header__burger header__burger-open header__burger_open">
         <img src="./images/close-black.svg" class="header__burger header__burger-close">
@@ -109,20 +109,20 @@
       </div>
     </main>
 
-    <div id="popup" class="overlay">
-      <div class="popup">
-        <a href="#"><img src="./images/close.svg" class="popup__close"></a>
+    <div id="popup" class="popup">
+      <div class="popup__container">
+        <img src="./images/close.svg" class="popup__close">
         <h2 class="popup__header">Быстро оставить заявку</h2>
         <p class="popup__text">Введите номер, мы позвоним вам в течение 10 минут в рабочее время</p>
         <p class="popup__schedule">Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00</p>
         <form class="popup__form">
           <fieldset class="popup__set">
             <span class="popup__span">Введите номер телефона</span>
-            <input type="tel" placeholder="+7 ( _ _ _) _ _ - _ _ - _ _" class="popup__input">
-            <input type="submit" class="popup__submit-button" value="Позвоните мне &rarr;" name="submit_button">
+            <input type="tel" placeholder="+7 ( _ _ _) _ _ - _ _ - _ _" class="popup__input" pattern="^\+?[78][-\(]?\d{3}\)?-?\d{3}-?\d{2}-?\d{2}$"  required>
+            <input type="submit" class="popup__submit-button" value="Позвоните мне &rarr;" name="submit_button" disabled="">
             <div class="popup__check">
               <label>
-                <input type="checkbox" class="popup__checkbox">
+                <input type="checkbox" class="popup__checkbox"  required>
                 <span></span>
               </label>
               <p class="popup__text popup__text_bottom">Нажимая кнопку вы соглашаетесь с условиями <a>Политики конфиденциальности</a></p>
@@ -133,5 +133,6 @@
     </div>
   </div>
   <script src="./scripts/script.js"></script>
+  <script src="./scripts/validation.js"></script>
 </body>
 </html>

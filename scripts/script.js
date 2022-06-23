@@ -7,6 +7,30 @@ const image = document.querySelector('.bulletins__bottom-image');
 const dropMenu = document.querySelector('.drop-menu');
 const openDropMenuButton = document.querySelector('.header__burger-open');
 const closeDropMenuButton = document.querySelector('.header__burger-close');
+
+const popup = document.querySelector('.popup');
+const openPopupButton = document.querySelector('.header__call-me');
+const closePopupButton = document.querySelector('.popup__close');
+
+const buttonElement = document.querySelector('.popup__submit-button'); 
+
+openPopupButton.addEventListener('click', () => { 
+  popup.classList.add('popup_opened')
+}); 
+closePopupButton.addEventListener('click', () => { 
+  popup.classList.remove('popup_opened')
+}); 
+
+function popupSubmitHandler(evt) {
+  evt.preventDefault(); 
+  popup.classList.remove('popup_opened')
+} 
+
+buttonElement.addEventListener('click', () => {
+  popup.classList.remove('popup_opened')
+}); 
+
+popup.addEventListener('submit', popupSubmitHandler);
  
 openMenuButton.addEventListener('click', () => { 
   menu.classList.add('content__bulletins-without-button_open')
@@ -35,7 +59,3 @@ closeDropMenuButton.addEventListener('click', () => {
   closeDropMenuButton.classList.remove('header__burger_open')
   openDropMenuButton.classList.add('header__burger_open')
 }); 
-
-
-
-

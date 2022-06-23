@@ -1,4 +1,6 @@
 .header__call-me {
+  border: none;
+  background: none;
   font-weight: 600;
   font-size: 0.625vw;
   line-height: 125%;
@@ -6,6 +8,10 @@
   color: #12C868;
   text-decoration: underline dotted #12C868;
   text-underline-offset: 0.2vw;
+}
+
+.header__call-me:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 992px){

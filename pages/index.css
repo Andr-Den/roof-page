@@ -60,8 +60,8 @@
 @import url(../block/bulletins/__bottom-image/bulletins__bottom-image.css);
 @import url(../block/bulletins/__bottom-image/_open/bulletins__botoom-image_open.css);
 
-@import url(../block/overlay/overlay.css);
 @import url(../block/popup/popup.css);
+@import url(../block/popup/__container/popup__container.css);
 @import url(../block/popup/__header/popup__header.css);
 @import url(../block/popup/__close/popup__close.css);
 @import url(../block/popup/__text/popup__text.css);
@@ -70,6 +70,7 @@
 @import url(../block/popup/__span/popup__span.css);
 @import url(../block/popup/__input/popup__input.css);
 @import url(../block/popup/__submit-button/popup__submit-button.css);
+@import url(../block/popup/__submit-button/_no-active/popup__submit-button_no-active.css);
 @import url(../block/popup/__check/popup__check.css);
 @import url(../block/popup/__checkbox/popup__checkbox.css);
 @import url(../block/popup/__text/_bottom/popup__text_bottom.css);
