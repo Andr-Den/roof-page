@@ -1,0 +1,26 @@
+.content__button {
+  margin-top: 2.3vw;
+  padding-top: 1.4vw;
+  padding-bottom: 1.4vw;
+  padding-left: 2.76vw;
+  padding-right: 2.76vw;
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  font-size: 0.73vw;
+  line-height: 157%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #12C868;
+  border-radius: 26vw;
+  display: flex;
+  align-items: center;
+  gap: 1.6vw;
+}
+
+.content__button:hover {
+  cursor: pointer;
+  background: #21E27C;
+}

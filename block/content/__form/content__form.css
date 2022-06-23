@@ -1,0 +1,6 @@
+.content__form {
+  margin-top: 2vw;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.83vw;
+}

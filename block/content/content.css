@@ -1,0 +1,8 @@
+.content {
+  margin: 0 auto 0;
+  width: 80vw;
+  color: #1C1C1C;
+  display: flex;
+  gap: 3.7vw;
+  padding-bottom: 7.9vw;
+}

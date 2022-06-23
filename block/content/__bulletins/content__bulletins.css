@@ -1,0 +1,10 @@
+.content__bulletins {
+  width: 11.7vw;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
