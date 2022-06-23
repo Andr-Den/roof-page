@@ -1,0 +1,6 @@
+.header__text_media {
+  display: flex;
+  align-items: center;
+  gap: 0.2vw;
+  margin: 0 auto 0;
+}

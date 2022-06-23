@@ -17,6 +17,7 @@
 @import url(../block/header/__phone/header__phone.css);
 @import url(../block/header/__call-me/header__call-me.css);
 @import url(../block/header/__media/header__media.css);
+@import url(../block/header/__text/_media/header__text_media.css);
 @import url(../block/header/__pdf-link/header__pdf-link.css);
 @import url(../block/header/__home-icon/header__home-icon.css);
 @import url(../block/header/__burger/header__burger.css);
