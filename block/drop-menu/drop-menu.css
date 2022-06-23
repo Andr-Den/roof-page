@@ -1,0 +1,13 @@
+.drop-menu {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  padding-bottom: 40px;
+  position: absolute;
+  background-color: #EDF2F5;
+  z-index: 99;
+}
+
+.drop-menu_open {
+  display: flex;
+}

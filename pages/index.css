@@ -21,6 +21,15 @@
 @import url(../block/header/__home-icon/header__home-icon.css);
 @import url(../block/header/__burger/header__burger.css);
 
+@import url(../block/drop-menu/drop-menu.css);
+@import url(../block/drop-menu/__nav/drop-menu__nav.css);
+@import url(../block/drop-menu/__links/drop-menu__links.css);
+@import url(../block/drop-menu/__description/drop-menu__description.css);
+@import url(../block/drop-menu/__text/drop-menu__text.css);
+@import url(../block/drop-menu/__text/_bold/drop-menu__text_bold.css);
+@import url(../block/drop-menu/__catalog/drop-menu__catalog.css);
+@import url(../block/drop-menu/__media/drop-menu__media.css);
+
 @import url(../block/content/content.css);
 @import url(../block/content/__bulletins/content__bulletins.css);
 @import url(../block/content/__info/content__info.css);
