@@ -5,3 +5,17 @@
   font-size: 0.625vw;
   line-height: 150%;
 }
+
+@media screen and (max-width: 992px){
+  .popup__schedule {
+    margin: 24px 0 0 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .popup__schedule {
+    margin: 12px 0 0 0;
+    font-size: 6px;
+  }
+}

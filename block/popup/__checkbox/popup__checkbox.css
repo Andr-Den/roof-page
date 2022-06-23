@@ -1,0 +1,31 @@
+.popup__checkbox {
+  margin: 0;
+  background-color: #F38120;
+}
+
+label input {
+  display: none;
+}
+
+label span {
+  height: 18px;
+  width: 18px;
+  border: 1px solid gray;
+  display: inline-block;
+  position: relative;
+  background-color:#FFF;
+  border-radius: 4px;
+}
+
+.popup__checkbox:checked + span:before {
+  content: url(../../../images/check.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #F38120;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

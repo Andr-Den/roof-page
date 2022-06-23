@@ -1,0 +1,23 @@
+.popup__text_bottom {
+  width: 16.6vw;
+  font-weight: 500;
+  font-size: 0.625vw;
+  line-height: 175%;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px){
+  .popup__text_bottom {
+    width: 319px;
+    font-size: 12px;
+    line-height: 175%;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .popup__text_bottom {
+    width: 159px;
+    font-size: 6px;
+    line-height: 175%;
+  }
+}

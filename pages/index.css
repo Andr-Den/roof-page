@@ -67,5 +67,9 @@
 @import url(../block/popup/__text/popup__text.css);
 @import url(../block/popup/__schedule/popup__schedule.css);
 @import url(../block/popup/__set/popup__set.css);
+@import url(../block/popup/__span/popup__span.css);
 @import url(../block/popup/__input/popup__input.css);
 @import url(../block/popup/__submit-button/popup__submit-button.css);
+@import url(../block/popup/__check/popup__check.css);
+@import url(../block/popup/__checkbox/popup__checkbox.css);
+@import url(../block/popup/__text/_bottom/popup__text_bottom.css);

@@ -1,0 +1,22 @@
+.popup__check {
+  margin-top: 1vw;
+  width: 18.5vw;
+  display: flex;
+  gap: 1vw;
+}
+
+@media screen and (max-width: 992px){
+  .popup__check {
+    margin-top: 19px;
+    width: 356px;
+    gap: 19px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .popup__check {
+    margin-top: 8px;
+    width: 178px;
+    gap: 8px;
+  }
+}

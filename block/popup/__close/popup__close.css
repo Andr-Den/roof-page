@@ -6,3 +6,21 @@
   width: 1vw;
   height: 1vw;
 }
+
+@media screen and (max-width: 992px){
+  .popup__close {
+    top: 45px;
+    right: 47px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .popup__close {
+    top: 23px;
+    right: 23px;
+    width: 10px;
+    height: 10px;
+  }
+}

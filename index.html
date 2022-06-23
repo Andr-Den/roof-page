@@ -117,9 +117,16 @@
         <p class="popup__schedule">Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00</p>
         <form class="popup__form">
           <fieldset class="popup__set">
+            <span class="popup__span">Введите номер телефона</span>
             <input type="tel" placeholder="+7 ( _ _ _) _ _ - _ _ - _ _" class="popup__input">
             <input type="submit" class="popup__submit-button" value="Позвоните мне &rarr;" name="submit_button">
-            <p class="popup__text">Нажимая кнопку вы соглашаетесь с условиями <a>Политики конфиденциальности</a></p>
+            <div class="popup__check">
+              <label>
+                <input type="checkbox" class="popup__checkbox">
+                <span></span>
+              </label>
+              <p class="popup__text popup__text_bottom">Нажимая кнопку вы соглашаетесь с условиями <a>Политики конфиденциальности</a></p>
+            </div>
           </fieldset> 
         </form>
       </div>

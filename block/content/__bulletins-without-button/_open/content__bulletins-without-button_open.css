@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 650px){
-  .content__bulletins-without-button {
-    display: none;
+  .content__bulletins-without-button_open {
+    width: 250px;
   }
 }

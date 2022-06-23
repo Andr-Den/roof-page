@@ -1,6 +1,6 @@
 .popup {
   margin: 10vw auto 0;
-  background: #fff;
+  background: rgb(255, 255, 255, 1);
   border-radius: 1.8vw;
   width: 28.9vw;
   position: relative;
@@ -8,3 +8,22 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 992px){
+  .popup {
+    margin: 200px auto 0;
+    background: #fff;
+    border-radius: 35px;
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .popup {
+    margin: 100px auto 0;
+    width: 275px;
+    border-radius: 17.5px;
+  }
+}
+
+

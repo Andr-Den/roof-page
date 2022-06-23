@@ -1,0 +1,28 @@
+.popup__span {
+  align-self:flex-start;
+  margin-top: 1.46vw;
+  margin-left: 2.4vw;
+  font-weight: 400;
+  font-size: 0.625vw;
+  line-height: 0.78vw;
+  color: #000000;
+}
+
+@media screen and (max-width: 992px){
+  .popup__span {
+    margin-top: 28px;
+    margin-left: 46px;
+    margin-top: 28px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .popup__span {
+    margin-top: 14px;
+    margin-left: 23px;
+    font-size: 6px;
+    line-height: 8px;
+  }
+}
