@@ -2,7 +2,13 @@
   width: 1vw;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
+  .content__arrow {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 650px){
   .content__arrow {
     width: 15px;
   }

@@ -8,12 +8,20 @@
   text-underline-offset: 0.2vw;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
+  .header__call-me {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-underline-offset: 8px;
+  }
+}
+
+@media screen and (max-width: 650px){
   .header__call-me {
     font-size: 10px;
     line-height: 12px;
-    text-align: center;
-    letter-spacing: 0.04em;
     text-underline-offset: 6px;
   }
 }

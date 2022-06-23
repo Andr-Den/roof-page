@@ -8,12 +8,22 @@
   line-height: 157%;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
+  .bulletins__text {
+    width: 204px;
+    font-size: 20px;
+    line-height: 30px;
+    box-shadow: none;
+    padding-top: 52px;
+    padding-left: 46px;
+  }
+}
+
+@media screen and (max-width: 650px){
   .bulletins__text {
     width: 102px;
     font-size: 10px;
     line-height: 15px;
-    box-shadow: none;
     padding-top: 26px;
     padding-left: 23px;
   }

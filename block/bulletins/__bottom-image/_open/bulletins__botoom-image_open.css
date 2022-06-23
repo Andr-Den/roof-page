@@ -1,3 +1,10 @@
 .bulletins__bottom-image_open {
   display: block;
+  width: 404px;
+}
+
+@media screen and (max-width: 650px){
+  .bulletins__bottom-image_open {
+    width: 202px;
+  }
 }

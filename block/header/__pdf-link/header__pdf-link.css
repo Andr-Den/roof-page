@@ -4,7 +4,7 @@
   text-underline-offset: 0.2vw;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
   .header__pdf-link {
     text-underline-offset: 6px;
   }

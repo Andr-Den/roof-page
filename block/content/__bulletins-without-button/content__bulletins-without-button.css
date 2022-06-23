@@ -9,7 +9,7 @@
   box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
   .content__bulletins-without-button {
     display: none;
   }

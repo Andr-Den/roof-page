@@ -2,16 +2,25 @@
   display: none;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
   .bulletins__button {
     border: none;
     float: right;
     background: none;
     position: absolute;
+    top: 62px;
+    right: 28px;
+  }
+
+  .bulletins__button:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .bulletins__button {
     top: 31px;
     right: 14px;
-    width: 33px;
-    height: 33px;
   }
 
   .bulletins__button:hover {

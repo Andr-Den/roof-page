@@ -2,7 +2,7 @@
   width: 100%;
   display: none;
   flex-direction: column;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   position: absolute;
   background-color: #EDF2F5;
   z-index: 99;
@@ -10,4 +10,10 @@
 
 .drop-menu_open {
   display: flex;
+}
+
+@media screen and (max-width: 650px){
+  .drop-menu {
+    padding-bottom: 40px;
+  }
 }

@@ -6,10 +6,17 @@
   letter-spacing: 0.05em;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
+  .header__phone {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+  }
+}
+
+@media screen and (max-width: 650px){
   .header__phone {
     font-size: 14px;
     line-height: 17px;
-    letter-spacing: 0.05em;
   }
 }

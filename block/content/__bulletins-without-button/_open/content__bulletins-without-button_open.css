@@ -1,4 +1,10 @@
 .content__bulletins-without-button_open {
   display: block;
-  width: 250px;
+  width: 500px;
+}
+
+@media screen and (max-width: 650px){
+  .content__bulletins-without-button {
+    display: none;
+  }
 }

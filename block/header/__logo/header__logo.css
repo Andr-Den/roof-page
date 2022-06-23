@@ -7,7 +7,14 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
+  .header__logo {
+    width: 150px;
+    height: 104px;
+  }
+}
+
+@media screen and (max-width: 650px){
   .header__logo {
     width: 75px;
     height: 52px;

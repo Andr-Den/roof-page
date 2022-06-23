@@ -2,7 +2,13 @@
   width: 3vw;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
+  .content__points {
+    width: 72px;
+  }
+}
+
+@media screen and (max-width: 650px){
   .content__points {
     width: 37px;
   }

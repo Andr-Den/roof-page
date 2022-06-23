@@ -2,11 +2,23 @@
   display: none;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
   .bulletins__description {
     display: none;
     margin: 7px 0 0 0;
     font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: 224px;
+    padding-left: 46px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .bulletins__description {
+    display: none;
+    margin: 14px 0 0 0;
     font-size: 6px;
     line-height: 8px;
     width: 112px;

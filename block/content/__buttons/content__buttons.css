@@ -3,10 +3,18 @@
   gap: 1vw;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
   .content__buttons {
+    margin-top: 24px;
     order: 4;
-    gap: 12px;
+    gap: 24px;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .content__buttons {
+    margin-top: 12px;
+    gap: 12px;
   }
 }

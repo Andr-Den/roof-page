@@ -12,7 +12,21 @@
   box-shadow: none;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
+  .content__text {
+    width: 204px;
+    font-size: 20px;
+    line-height: 30px;
+    box-shadow: none;
+    padding-left: 46px;
+  }
+
+  .content__text:first-child {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 650px){
   .content__text {
     width: 102px;
     font-size: 10px;

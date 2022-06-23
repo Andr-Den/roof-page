@@ -12,7 +12,7 @@
   color: #12C868;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 992px){
   .header__icon_pdf {
     font-size: 11px;
     line-height: 13px;
