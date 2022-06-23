@@ -6,6 +6,7 @@
   background: #FFFFFF;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
 }
 
 @media screen and (max-width: 700px){
