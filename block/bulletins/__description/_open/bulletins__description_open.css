@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px){
+  .bulletins__description_open {
+    display: block;
+  }
+}

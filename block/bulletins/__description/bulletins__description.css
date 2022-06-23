@@ -1,0 +1,16 @@
+.bulletins__description {
+  display: none;
+}
+
+@media screen and (max-width: 320px){
+  .bulletins__description {
+    display: none;
+    margin: 7px 0 0 0;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+    width: 112px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+  }
+}

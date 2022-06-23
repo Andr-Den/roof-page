@@ -1,0 +1,20 @@
+.bulletins__text {
+  margin: 0;
+  padding-top: 3.3vw;
+  padding-left: 2.1vw;
+  width: 7.5vw;
+  font-weight: 400;
+  font-size: 0.73vw;
+  line-height: 157%;
+}
+
+@media screen and (max-width: 320px){
+  .bulletins__text {
+    width: 102px;
+    font-size: 10px;
+    line-height: 15px;
+    box-shadow: none;
+    padding-top: 26px;
+    padding-left: 23px;
+  }
+}

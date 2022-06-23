@@ -1,0 +1,15 @@
+.content__bulletins-without-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 11.7vw;
+  background: #FFFFFF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 320px){
+  .content__bulletins-without-button {
+    display: none;
+  }
+}

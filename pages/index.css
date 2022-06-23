@@ -38,6 +38,18 @@
 @import url(../block/content/__click/content__click.css);
 @import url(../block/content/__points/content__points.css);
 
+@import url(../block/content/__bulletins-with-button/content__bulletins-with-button.css);
+@import url(../block/content/__bulletins-without-button/content__bulletins-without-button.css);
+@import url(../block/content/__bulletins-without-button/_open/content__bulletins-without-button_open.css);
+@import url(../block/bulletins/__text/bulletins__text.css);
+@import url(../block/bulletins/__text/_bold/bulletins__text_bold.css);
+@import url(../block/bulletins/__button/bulletins__button.css);
+@import url(../block/bulletins/__button/_open/bulletins__button_open.css);
+@import url(../block/bulletins/__description/bulletins__description.css);
+@import url(../block/bulletins/__description/_open/bulletins__description_open.css);
+@import url(../block/bulletins/__bottom-image/bulletins__bottom-image.css);
+@import url(../block/bulletins/__bottom-image/_open/bulletins__botoom-image_open.css);
+
 @import url(../block/overlay/overlay.css);
 @import url(../block/popup/popup.css);
 @import url(../block/popup/__header/popup__header.css);

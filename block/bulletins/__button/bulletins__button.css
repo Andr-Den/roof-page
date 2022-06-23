@@ -1,0 +1,16 @@
+.bulletins__button {
+  display: none;
+}
+
+@media screen and (max-width: 320px){
+  .bulletins__button {
+    border: none;
+    float: right;
+    background: none;
+    position: absolute;
+    top: 31px;
+    right: 14px;
+    width: 33px;
+    height: 33px;
+  }
+}
