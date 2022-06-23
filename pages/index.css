@@ -32,6 +32,9 @@
 @import url(../block/content/__button/content__button.css);
 @import url(../block/content/__button/_orange/content__button_orange.css);
 @import url(../block/content/__form/content__form.css);
+@import url(../block/content/__arrow/content__arrow.css);
+@import url(../block/content/__click/content__click.css);
+@import url(../block/content/__points/content__points.css);
 
 @import url(../block/overlay/overlay.css);
 @import url(../block/popup/popup.css);
