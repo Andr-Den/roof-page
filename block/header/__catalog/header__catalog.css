@@ -8,3 +8,9 @@
   letter-spacing: 0.04em;
   color: #1C1C1C;
 }
+
+@media screen and (max-width: 320px){
+  .header__catalog {
+    display: none;
+  }
+}

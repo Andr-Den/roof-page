@@ -4,3 +4,13 @@
   box-shadow: none;
   text-align: center;
 }
+
+@media screen and (max-width: 320px){
+  .content__text_form {
+    width: 146px;
+    font-size: 8px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+}

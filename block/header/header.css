@@ -3,3 +3,9 @@
   margin: 0 auto 0;
   width: 80vw;
 }
+
+@media screen and (max-width: 320px){
+  .header {
+    width: 100%;
+  }
+}

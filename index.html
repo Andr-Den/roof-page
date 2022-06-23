@@ -42,28 +42,40 @@
           <p class="header__phone">8 (800) 222-54-60</p>
           <a class="header__call-me" href="#popup">Позвоните мне</a>
         </div>
+        <a><img src="./images/burger.svg" class="header__burger"></a>
       </div>
     </header>
 
     <main class="content">
       <div class="content__bulletins">
-        <p class="content__text"><span class="content__text_bold">Гарантия от 50 лет</span> на материалы и 5 лет на монтаж</p>
-        <p class="content__text"><span class="content__text_bold">Замер, монтажный проект</span> и еще 4 услуги бесплатно </p>
-        <p class="content__text"><span class="content__text_bold">Сметы точны</span> до копейки </p>
-        <p class="content__text"><span class="content__text_bold">Поэтапная оплата,</span> кредит или рассрочка </p>
-        <p class="content__text"><span class="content__text_bold">Наши крыши в каждом поселке</span> и дачном сообществе региона </p>
+        <div class="content__bulletins-with-button">
+          <button class="bulletins__button bulletins__button-open bulletins__button_open"><img src="./images/open-button.svg"></button>
+          <button class="bulletins__button bulletins__button-close"><img src="./images/close-button.svg"></button>
+          <p class="bulletins__text"><span class="bulletins__text_bold">Гарантия от 50 лет</span> на материалы и 5 лет на монтаж</p>
+          <p class="bulletins__description bulletins__description_open">Нажмите на плюсик, чтобы увидеть все преимущества работы с нами</p>
+          <img src="./images/menu_shadow.png" class="bulletins__bottom-image">
+        </div>
+        <div class="content__bulletins-without-button" id="menu">
+          <p class="content__text"><span class="content__text_bold">Замер, монтажный проект</span> и еще 4 услуги бесплатно </p>
+          <img src="./images/menu_shadow.png">
+          <p class="content__text"><span class="content__text_bold">Сметы точны</span> до копейки </p>
+          <img src="./images/menu_shadow.png">
+          <p class="content__text"><span class="content__text_bold">Поэтапная оплата,</span> кредит или рассрочка </p>
+          <img src="./images/menu_shadow.png">
+          <p class="content__text"><span class="content__text_bold">Наши крыши в каждом поселке</span> и дачном сообществе региона </p>
+        </div>
       </div>
       <div class="content__info">
         <h1 class="content__title">Продажа <span class="content__title_bold">кровельных материалов</span> в Тюмени и Тюменской области</h1>
         <p class="content__subtitle"><img src="./images/circles.svg" class="content__points"> и монтаж под ключ</p>
         <div class="content__buttons">
-          <button class="content__button">Рассчитать стоимость <br>материалов и монтажа <img src="./images/arrow.svg" class="content__arrow"></button>
-          <button class="content__button content__button_orange">Записаться на <br> просмотр объектов <img src="./images/arrow.svg" class="content__arrow"></button>
-        </div>
-        <div class="content__form">
-          <img src="./images/click.svg" class="content__click">
-          <p class="content__text content__text_form"><span class="content__text_bold">Ответьте на несколько вопросов и получите</span> сметную стоимость и 3 подарка за экономию нашего времени</p>
-        </div>
+            <button class="content__button">Рассчитать стоимость <br>материалов и монтажа <img src="./images/arrow.svg" class="content__arrow"></button>
+            <button class="content__button content__button_orange">Записаться на <br> просмотр объектов <img src="./images/arrow.svg" class="content__arrow"></button>
+          </div>
+          <div class="content__form">
+            <img src="./images/click.svg" class="content__click">
+            <p class="content__text content__text_form"><span class="content__text_bold">Ответьте на несколько вопросов и получите</span> сметную стоимость и 3 подарка за экономию нашего времени</p>
+          </div>
       </div>
     </main>
 
@@ -83,5 +95,6 @@
       </div>
     </div>
   </div>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>

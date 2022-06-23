@@ -6,3 +6,10 @@
 .content__button_orange:hover {
   background:  #FD9C49;
 }
+
+@media screen and (max-width: 320px){
+  .content__button_orange {
+    width: 276px;
+    gap: 24px;
+  }
+}

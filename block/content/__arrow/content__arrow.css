@@ -1,3 +1,9 @@
 .content__arrow {
   width: 1vw;
 }
+
+@media screen and (max-width: 320px){
+  .content__arrow {
+    width: 15px;
+  }
+}

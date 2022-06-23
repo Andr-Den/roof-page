@@ -1,10 +1,110 @@
 .content__bulletins {
   width: 11.7vw;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
-  border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+}
+
+.content__bulletins-with-button {
+  background-image: url(../../../images/form.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 11.7vw;
+  position: relative;
+
+}
+
+.bulletins__text {
+  margin: 0;
+  padding-top: 3.3vw;
+  padding-left: 2.1vw;
+  width: 7.5vw;
+  font-weight: 400;
+  font-size: 0.73vw;
+  line-height: 157%;
+}
+
+.bulletins__text_bold {
+  font-weight: 700;
+}
+
+.bulletins__button {
+  display: none;
+}
+
+.bulletins__description {
+  display: none;
+}
+
+.content__bulletins-without-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 11.7vw;
+  background: #FFFFFF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 320px){
+  .content__bulletins-without-button {
+    display: none;
+  }
+
+  .content__bulletins-without-button_open {
+    display: block;
+    width: 250px;
+  }
+
+  .content__bulletins-with-button {
+    width: 250px;
+  }
+
+  .bulletins__text {
+    width: 102px;
+    font-size: 10px;
+    line-height: 15px;
+    box-shadow: none;
+    padding-top: 26px;
+    padding-left: 23px;
+  }
+
+  .bulletins__button {
+    border: none;
+    float: right;
+    background: none;
+    position: absolute;
+    top: 31px;
+    right: 14px;
+    width: 33px;
+    height: 33px;
+  }
+
+  .bulletins__button_open {
+    display: block;
+  }
+  
+  .bulletins__description {
+    display: none;
+    margin: 7px 0 0 0;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+    width: 112px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+  }
+
+  .bulletins__description_open {
+    display: block;
+  }
+
+  .bulletins__bottom-image {
+    display: none;
+  }
+
+  .bulletins__bottom-image_open {
+    display: block;
+  }
 }

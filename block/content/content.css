@@ -6,3 +6,11 @@
   gap: 3.7vw;
   padding-bottom: 7.9vw;
 }
+
+@media screen and (max-width: 320px){
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 0;
+  }
+}

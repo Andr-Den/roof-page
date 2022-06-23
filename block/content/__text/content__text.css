@@ -1,4 +1,6 @@
 .content__text {
+  margin: 0;
+  padding-top: 1vw;
   width: 7.5vw;
   box-shadow: 0 5px 17px rgba(0, 0, 0, 0.04);
   font-weight: 400;
@@ -6,6 +8,21 @@
   line-height: 157%;
 }
 
-.content__text:first-child {
-  margin-top: 3.3vw;
+.content__text:last-child {
+  padding-bottom: 2.1vw;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 320px){
+  .content__text {
+    width: 102px;
+    font-size: 10px;
+    line-height: 15px;
+    box-shadow: none;
+    padding-left: 23px;
+  }
+
+  .content__text:first-child {
+    padding-top: 10px;
+  }
 }

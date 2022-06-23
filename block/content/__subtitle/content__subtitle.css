@@ -5,3 +5,10 @@
   font-size: 1.67vw;
   line-height: 122%;
 }
+
+@media screen and (max-width: 320px){
+  .content__subtitle {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

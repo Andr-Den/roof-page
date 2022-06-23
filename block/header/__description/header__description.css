@@ -5,3 +5,9 @@
   flex-direction: column;
   gap: 1vw;
 }
+
+@media screen and (max-width: 320px){
+  .header__description {
+    display: none;
+  }
+}

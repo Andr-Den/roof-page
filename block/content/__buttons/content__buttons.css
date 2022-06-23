@@ -2,3 +2,11 @@
   display: flex;
   gap: 1vw;
 }
+
+@media screen and (max-width: 320px){
+  .content__buttons {
+    order: 4;
+    gap: 12px;
+    flex-direction: column;
+  }
+}
