@@ -6,7 +6,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 700px){
   .content__bulletins-with-button {
     width: 250px;
   }

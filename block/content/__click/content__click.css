@@ -2,7 +2,7 @@
   width: 1.35vw;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 700px){
   .content__click {
     width: 12.8px;
   }

@@ -7,7 +7,7 @@
   background:  #FD9C49;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 700px){
   .content__button_orange {
     width: 276px;
     gap: 24px;

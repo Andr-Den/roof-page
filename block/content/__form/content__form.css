@@ -5,7 +5,7 @@
   gap: 0.83vw;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 700px){
   .content__form {
     order: 3;
     flex-direction: column;
